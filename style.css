@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    
+}
+
+.bg-image{
+    position: fixed;
+    left: 0;
+    right: 0;
+    background-image: url('https://images.unsplash.com/photo-1507486411790-179bbb6866ed?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80');
+    filter: blur(10px);
+    height:100%;    
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+h1{
+    color:black;
+    font-size: 2vw;
+    
+}
+
+h2 {
+    font-size: 1vw;
+}
+
+h3{
+    font-size: 0.8vw;
+}
+
+#title{
+    font-size: 1.2vw;
+}
+
+svg {
+    background-color: whitesmoke;
+    box-shadow: 10px 10px black;
+    padding-left: 3vw;
+    
+}
+#desc {
+    width: 69.66vw;
+    text-align: center;
+    background-color: whitesmoke;
+    color:black;
+    box-shadow: 10px 10px black;
+}
+text {
+    font-size: 0.8vw;
+}
+
+#tooltip{
+    color:whitesmoke;
+    background-color: rgb(27, 32, 36);
+    padding:5px;
+    pointer-events: none;
+}
+
+.cell:hover{
+    fill:black;
+    width:1.5vh;
+}
+
+p,a {
+    color:white;
+    font-size: 1vw;
+}
